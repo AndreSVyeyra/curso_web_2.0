@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<h2>Materiais disponiveis</h2>
+<body>
+    <table border="2", width="50%"> <!-- Tag tablet com a borda-->
+        <tr> <!--A tag tr serve para criar linhas tabela-->
+            <th>Código</th> <!--A tag th serva para criar titulos-->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td> <!--A tag td serve para coloca dados nas linhas-->
+            <td>
+                <img src="imagens/cal_xiaomi.jpg"  height="120">
+            </td>
+            <td>2.999.99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>
+                <img src="imagens/cpu_gamer.jpg" height="120">
+            </td>
+            <td>5.999.89</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>
+                <img src="imagens/notebook_gamer.jpg" height="120">
+            </td>
+            <td>4.345.99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2"> -10% R$</td>
+        </tr>
+        <tr>
+            <td colspan="2">-30% R$</td>
+        </tr>
+        <tr>
+            <td>
+                Total:
+            </td>
+            <td colspan="2">
+                10.032.83 R$
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
